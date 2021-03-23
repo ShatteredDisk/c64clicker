@@ -43,9 +43,9 @@ require([
         units: [{
             name: 'Water clock',
             description: "Drip pixels onto the screen. It's a slow process. (+1/s)",
-            cps: 1,
+            cps: 100000,
             displayAt: 0,
-            basePrice: 64
+            basePrice: 1
         },{
             name: 'Hamster wheel',
             description: "Hamsters never get tired, as we all know. (+8/s)",
